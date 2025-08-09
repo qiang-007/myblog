@@ -1,0 +1,6 @@
+[submodule "hugo-theme-Notepadium"]
+	path = hugo-theme-Notepadium
+	url = https://github.com/qiang-007/hugo-theme-Notepadium.git
+[submodule "themes/hugo-theme-hextra"]
+	path = themes/hugo-theme-hextra
+	url = https://github.com/qiang-007/hugo-theme-hextra.git

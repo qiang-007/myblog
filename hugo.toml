@@ -1,0 +1,33 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-theme-hextra'
+
+[menu]
+  [[menu.main]]
+    name = "文档"
+    pageRef = "/docs"
+    weight = 1
+
+  [[menu.main]]
+    name = "博客"
+    pageRef = "/blog"
+    weight = 2
+
+  [[menu.main]]
+    name = "关于"
+    pageRef = "/about"
+    weight = 3
+
+  [[menu.main]]
+    name = "搜索"
+    weight = 4
+    [menu.main.params]
+      type = "search"
+
+  [[menu.main]]
+    name = "GitHub"
+    weight = 5
+    url = "https://github.com/imfing/hextra"
+    [menu.main.params]
+      icon = "github"
